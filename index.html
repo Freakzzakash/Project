@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freakyphoto studio</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- Header Section Start -->
+        <header class="header">
+            <a href="#" class="logo">
+                <img src="https://img.freepik.com/premium-vector/initial-f-monogram-letter-alphabet-with-camera-icon-photography-logo-vector-illustration_565585-1580.jpg" alt="Logo Image">
+            </a>
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#menu">Menu</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="icons">
+                <div class="fas fa-search" id="search-btn"></div>
+                <div class="fas fa-bars" id="menu-btn"></div>
+            </div>
+
+            <div class="search-form">
+                <input type="search" id ="search-box" placeholder="search here. . .">
+                <label for="search-box" class="fas fa-search"></label>
+            </div>
+
+        </header>
+    <!-- Header Section End  -->
+
+        <!-- Home Section -->
+        <section class="home" id="home">
+            <div class="content">
+                <h3>Freaky digital Studio</h3>
+                <p>We are the digital photo Studio</p>
+                <a href="#" class="btn">Book a time slot</a>
+            </div>
+        </section>
+        <!-- Home Section End -->
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <h1 class="heading">
+                <span>About</span>Us
+            </h1>
+
+            <div class="row">
+                <div class="image">
+                    <img src="https://c4.wallpaperflare.com/wallpaper/273/229/200/the-camera-black-background-wallpaper-preview.jpg" alt="">
+                </div>
+
+                <div class="content">
+                   <h3>Events are taken</h3>
+                   <p>> weddiding shooting</p>
+                   <p>> potrait   shooting</p>
+                   <p>> product   shooting</p>
+                   <p>> Birathday Shooting</p>
+                    <a href="#" class="btn">Learn more</a>
+                </div>
+
+            </div>
+        </section>
+        <!-- About Section End -->
+
+        <!-- gallerySection -->
+        <section class="gallery" id="gallery">
+            <h1 class="heading">Our <span>Gallery</span></h1>
+                <div class="box-container">
+
+                    <div class="box">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8QBut-5gmCVSk-cSbOH2gX1rMlBec4GgbyQ&usqp=CAU" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>Portrait photo <br>shot</h3>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="https://i.pinimg.com/236x/b4/db/56/b4db56e7493e83c90b24f2208f1e46ff.jpg" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>weddiding photo <br>
+                            shot</h3>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-eye"></a>
+                        </div>
+                        <div class="image">
+                            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYVFRgVFhUZGBgaHRocHBwYGBgaGhoYGhgcGRkcGBgcIS4lHB4rIRocJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHxISHzQrJSs0NDQ0NDQ0NjQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ9NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIARMAtwMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAEAAECAwUGB//EADwQAAIBAgQEBAUCBQIGAwEAAAECEQAhAwQSMSJBUWEFcYGRBhMyobHB0RRCUuHxYvAjM3KCkqIVFuIH/8QAGQEAAwEBAQAAAAAAAAAAAAAAAAECAwQF/8QAJBEAAgICAgICAwEBAAAAAAAAAAECERIhAzFBURMiMmGhcYH/2gAMAwEAAhEDEQA/APS1SrFw6u01ICuKMDqciC4dSCVbTgVqokORAJU9NPSqkiLFpp4pUqoRW+WVuVVjIr0okU9Q+GLd0VnJeSGHgxVtRmlNXGKiqRDbY5NQJp6UUxkaUVKKVFCsjpptNWU1FBZDTTaat01GKVDsqK1EpV5FRIqWikykrSqyKVTiVkOEpaaf5gpB6FQtjU80iaVMQpp6QFPVCFSmlSosQpp5pqU07AkKVLVTTTAepVClNAE4pRUJp5oESNRpU00APTGlNNNAxUopTSmpAUUqaaVFjoxS79DVuHivzFaEDpTiK4VwteTpfKn4KcFmNFLTIRTl66IKu2YSdvolTEUwNIVpZNCpU9KKdgNSqUUxFACmlUaeiwoelUZpTTsKJTSmmpqVhRKaaaanosKFTTSpiaTY6HpqVKlYFSGDEz/s/pSqnMMVae0x5GD68Q+9NU50XjZL+IHUVJMwsUD/AAhq/DyFckZcjfRrKMEuwoYw61ctBnKxRWEIFbQcrqSMpJVospVWzU2qtciaJ1KqtdSDU1IGiZNNqpiaaKdionNRLU1Kix0KlTU9KwoeaU1BnAp5oyCiU0qiGp6Mgoeq1E71OmipewB2BUgiSNiOncUQKZo51Wrjaf8AFSqi6K7I5vCLLw/UDI6dD9iaarxSp6C2gNs0AatGbFeS+NfFWOcZkw2ACsAIA50XkfivFQkY8QfpIjeuXKaVnRhFnp4zAPOrMMyK88y/xarGB711OV8WTRq1DrvtTjytP7Ey4lX1Nh2A3pv4hetcl4r8R4aKWLz2WsDE+NFnhRiO5j2FHyyb+qD40vyZ2/iXiYQgDma0MlmwyivC/iH4nfGcAcCreB171s/Dvxu2GmnEV8SNmXeOhJ3pxXJF5fwbwksT2X5w61XiY8V57lfili2pl04fKTxevKtjN/EmEi6i36zRLmn1QlxR9m5j+JhedCDxoda828X+LWxDCDSo9zWSPH3WeKZ/36VFckt2V9F4PYx44gE6h7ilh/EGGROtfcV4RmfEXc6iT7mhlzhB3rWMJ+yG4ej34+JqxEGR1FPmvEwoEXrw/LeKOn0Oy+TEVpf/AGLHIg4hPmBWb4572WpQ9Hs2Uzwi5ov+OXrXgq/EOMjalxGnoTI9janf4tzLNPzCPKAPYVpFcsVSaIlhJ2e7/wAcsxNWnMrG9eIYfxpmNyVbzEfiiz8d45WISet/xSy5l4Hjxvyep53xAAbgVzGJ8W4SPpZ5jmBIHtXnGZ8VxcRiz4jNPe3sKoGIBvUPjk3cmUppKkj3zw7xBXUEMCOtKvFMp4ziBdOG5kfyjmO3cfg9qVWpTSohxi9mLhZg4Z1ESdUme1Ev4kMUiRp+9F5vCOLirhaE0vIBVYZTsoJuZNh5kGSARXOrlXWZ5H8VtjFqyXJrR1XhWCWaFroA7ICGHI1yXgmfKQDMkwIEn2roPEs1pb5bupNxYyQe/Q1zckW5UaxkqM7MuIM9DWOMIO28RRGKCQ16ry3CDN5t+9aR0jNvYBjZTUxJtfkeVaGXyv0IWhZG1O6QJieQnlUCxMdZpyk2Lo3vivGGEiaRwxEf78q4x/ES1h7Vq57Fd7OZAFqx8s3y9RC6m5TV8aVU+wlJtluFmt5qt8Sagys51ERNIZR94tWmjNtl+CwYxVWIsGp4GUYGTRIyoNS2kAAcSKkMyTV75CoNh6eVPJMCksTTqDRCAGnCilYAb4pFSVzVuPhA1UEIq7VAE4DnnUMzj96rwJZtIIBMxNpPSlj+HuF1Gx335SAPWT9qSir2G60DrjkGdREbEb9KVUYuEy3IIpVriiLPRBjo+PhYkrhvrw2dTZHRX+pCbKbzpNjpkdDzJMuzLJRnci2w1GK1clhK78RiCPtFX53JIgXQeGdu/OuNS1R0NWZWoowdDDLcdj1qhHctqZiSTJ6nrT5sHUY62rcy/hiOgIaCIBJO5Inan0TTbBMthakc3ABAFqvzGTAWdyu9PiasJCs86EbMMUKzc3NKiuivGcxPKoZdCGk7VfhOQhRhvsasw/pjpQSUshMkUsqgZpZeEWNbnh2XRkJNjEzNj2FZ2PlrkIZ8qV0yqoEzmEitbY0sfNBVhRNW5jKtA1Ag96HMRFGvJLRDFxwERgZJ3FADGM0Q2MomBWecwDyrWK/RLD0zEVLWGoHXIq3AoxEVY+IFMVBMcU2bWaAZorWMU0S20aoxBUcTMgVlHFNMcSn8ZOQW4LHhNwCR1te3eiMDxFjiAsZVt15TEW72FZaYxBBBggyCNwRsRRgwg5VlgAmCNgrb26AgEjyI5VpiktgpO9FeczRYwTaSfU0qDJvSqkhNs7xHQNBBF/vUc0NLPBsGMe9FZjDDsTG01DN5Ykv3JPpMivOrZ1Poz8w3CTzmo5XNOoFzJvRuXyZc6FuxO1TxMuEeDbTv6VSa6AszbkqureJ9TUMjgrub9avxcMPo8iaGxMJkmDY0gZZmcXigARyoVgT61fh4RO5vT5jD036RTFRVhYhAgHnR2SdULOYJA2696DzuCFhgdxRnh+TDgHUATYAnepY4rZPOZ/5qpb6d+4rCz0BrCxrr08HeGCIXYDiCgmPOPL7ViHADggi9KNIJIw8PKTMdKqy3h0710OWyokwOVRXw87irz8BjZzmLhQ8DYVYiX9K6rJ+EwSWG9C4vhJ1SBarzQnCjnszhWmKysbCPSvSsHKKRpcCAsi3OsrM+EhjIFEeVIUoWcZ/BkrNUHLGYrvct4aqA6lmRFZ+N4X0FaLmJ+JHGthEUfkVKkTdTAYdRMz5g3HlWz/8ADNuRV6eDtaBtVPlTQLjp2c1msmUcqR3EbFTdSOxBBpV07eFM1mG30+Ukx5XJ/wA0qXyh8R076HbWq6QRcDaecDkO1DM4iOZq1IUEedBK/ETyF71xo6GgnLRhYit3FB+L4ep2YNuef6datfGLXqOIJubxFUu7JaBHZkcTtpFWZliVBmr89BdSBuophgEntFVZLA8tJ8xRmJgl0MG/7VBMuAxcG3Sr8m8EDl+9DY0jMXDdzp6cu1a6qqaOFiykQAYv5QZqeBh6HOkXO1HHwvMYmG7Iy4bWXUQdRBHFpP8ALuL9461N2xqId/8AYMvlzhyzriE8aIrszBhq+ncFRFxtxWnbbzPh+XzJngRyS6EaRiMCL61gGNjsSI3vFeTZr4bbBYt84l+diNQ5gkGSDsa7fwU4edw/nuoTEUugKOFZGLA6pXTJkggHkec1u8caRm4yTtoowfDiHcAzoYg2IuDcrP1DuPtScCwFcQ3iuLl8w6jEZlVjpYjTqVHMFVIgXWLQOE112WzQxFDrziezQJ/NYcnG47NYSyNLHxgqbXoRMUqJIqrO4lx2oLM5hmAjlUFs0g+q8VNMRWgRWZlcUk3o3AxFW9BJbjCGAiphFNB5jOiRUkNi00m2Og04C0xChdqy8rnCxIBoz54KxzpOwoIVVIEClWamfCnTT0WVRWraieu9RxUmw5H3miMXD0qWGxEjyqGHiKVDC9qtEsGxU4oiAI+wplbpeaKx5ihMB9Ljpt+9NMlizN3FoEAVazwCs3pmYMxkczVeMhMUWDQ+QQkkHbn5UaxGvUBwiAKDSwIHPersF5lT1+wpXsDcyuR+Y4i0X9K085hYj4jqiNoGENL6uEvq+kCPq7gna8WnnMDxFiNWCSoI/wCY6ysD+lCQSTyJtF4Nq2h4mBjpgrmFlFTWhwwCf5mZSCBxXmxjUOlCXstRfaOWw8HFbWuImIo1MBrFiAY1KYBXyMzyqGV8Twshhvh4mG7M7SGVV0ssWVogkzNyZvY13eczaGSK4H4lK4oMiy36T286uM0pfoqXG5R32cRmsTWoe9iw0kkkKWZ14jvcsJ/2em+B0Z1xJJChkiTz4vff8UDjZI/J0IgHzNlglpUllMkm8A3EWLSOmt4DkPlYS6hqJOoNhvBvtpOxEX9a35JxcP8ApzR45RnT9Gjn8XSxEbc6rQagYqZQlSFxDLGwzCHtIDrBPS8xVuA64ZCujKW2J0lCegcGD6xXLS8Gzi12Z51KwovGWy9aYprfaL7HcU+YeXA6UrERwnSbqZ5VemLyixqnMsNVhSYyBypPY7JjD0mw3q+3KgjmgCRNxHnRuXwwUnUQfv69qYJA7qNXl2n7UqlhxJnelU4oNhgxEdIJmASABZjBIHuKy8jgsmCoaJEj8SfvU9MMw2Bi/Th4hFJ3gbW5eW9EW9oCz5kgAmO9LK5VGIOsjSb6lgE9AQTH+KbLLJ4RqIuFO5O/CRvWhgZEEKiOBiEM+hkdBcgNxuACQLn9Zu78ISVmZmEKufORzkdjSm4nc1pZ7wt8II76YAadLK0cwDG3OsxiS4Av+lMCWgwW5C5PTrVGGshcRtSqQSEkhnJ21AbW5cvO4Jw0DszliEwiQwNg7wLAcwo/J6CtDIeGNitrxCVSLtygxCoDYmBvyn0L60VGK7YGuG7kA6QB9KQSIkEbEdDa+9a2e8KdcJcR8Fy4LONLSoAghikhge8chXR+B4iOzogCqoFltuT9R3JtzrTzfhyYh1ML6dMgkcJMxWkeO42hPlcZUzyDG8fk3Mdqimab61IIHXY+1dV478EYRfCKK0viBXvMIVZmO1iNO/ejm+C8OIV3Uf0nSw/AJ96T4/SNPmj5Z5XhjMZl9QsFJi5Vd4JBJmb7gyK6/LYmHhIhZUB4QQpEBrBiBvpBgeXSuy8L8AXAR04XVzMFBawEi54t7+XS/JfEnhpwWDKQcJWCO2xWSLPG4b6Z71XJbpVowVbd2x89joyhZBPMCSBH1f47GqA2kQNbqbMpWVtYi/aT6VP5siSOhHp9NXrp0atUDmI5xf7fmsDVOugPBwFVQcI8A4mQjjRSJ4CbnrpPX1E8siMwxPrS5uCL7XWxseX70ScBWQ4iOQ6H6TYMs3nuOGgw2iXBYIwIYCCAxIOqORtNt5O/DTTvsTiqtBH8YkkNhYcE7qGDAdRxfaljaFBG8gMpvP1RHcQDy6bbUOwAaDvUcbEuByEx63pUSUtgKW1c6vZW1Kdgard523ijhmA+HpIgiNJjmBe9Fggf5LTPnSqeBi6oUX3nYdTueVKgegZmE9Zg+4qtyxE3jYd7nb96gmOAyaCrl1uCv0MNRFtiCAY8qWYBQ3PUH25fimlWiRYOJqOmNjG/X9KubKvhszYBnhulxOpSCRezA+8UFlQA2qdpuN7xajsv4gBMNqFhsZJUmQwiwk/eq34GpUB+H/FGJh4r/ORW1qAVdDHCIXSrd73511GR8UyzjV8hAe2oD2mK5/xMfMKAopEkBWOq5BAkwNMSD6UAfCWWQjsGvpEypPK5vc96puL/AEPJN7R2r5/CWIwk03N5I1EzOkmJ35Vi+M/EbNYHt/iqfh/wN8zqY4p0KYJUAEtEwCSeUE+YrufCvhnAwgCE4/6mMv8A+R29AKWDs0c4xMH/APnSYqtjviKV1/LChgdl1yY6cQ9q9AGLI3/as3PKEAK9/Od/Wo4DE771spVo5p/Z2F4pHWnRxt+etDMxNM7mKLJoKxGHO21cbhZoY2LjoYKl8RCDsRqIH6V0D50aCxJGmSekATI9q8x+H86yYra5Vi2uCIMOdYMHqCD61HJtWjbhjtphCY6KpUMAoJ6bSbDyHPvT/wAUIjUJBkiRtz+1/KtPxrJqD81QNB4jHJj9SnzmR2tyrHIvIE3j2sfcfastFVQYmZADQRMg3IgKlmP3H+xUsLEDs6qdwTFrMIItPWKCc3UbctuxA9o1H0q/w14VsU7KlpsdufcxPtSa0NdlIxJAuTAgkzMjhMk77b1biiFU9ZPpOn9DQWAjMyo0KAY4RbRqJEECJ0n8UdnMiwcJJKElQwM2EEn1kjzmm3FOmZgiYhBk0zYx5G3Sj2RChDD6Wm1iwHIHptJrncHNssKTfypReV0S2amCpLqoN2nmYsCf0pVHXwgg8TWnaAL27mB6R1pVRVmPgZ0sxvLLwppEswlgTq5RY7itrNpqKENqGoSBuQp4gL3EEGe9S8EziZdH0pKqg+Y6sVZmc8IsRsmponkYgmrviFAjrDBDiqZA+nUjQWHIAqTfmPM1rNXLRC62BOghmSdKnoTG8W3O3So5Ff8AjQOKA3VQSCbFRt0kx9Peq8xhHQYYS5LC8WViYkdhyrPy4VgQ07gm8WOoySL6gY9zSirTC9nSZ9wAmnSG1AlQQ0QQbzefMUUmGqAoLkkEf6ReSCN429ZrHxF1Ip53Xhk20ncxv7+lWZzGCInGVJJurBjGkncbAx96wcHSSLbNDD8YxcmCmGiOgLtp4lfUSC3UEXEQBtXVeA/Exxg2tdDK2n6gQ3kfOft1rzvO5pfmKGIYmQQbmb9LmSRyrpvhDwwYmGrA6FYSqkS2lX4ST/flW8MsVfYtHYu7O0kQvI/r+asVRMDGAPQxUcLBbBSHLOALnSJAA5AGZtQrZwG2lWvcX4RJ3PM8J2q8SWzT1MPqXX3VRPvNMuIp/kxFPcD96xlxCBIVb3GkEGIJAlTvA6Xvaict4iwH1MdrSCBbmSbXBpiJeK5UYiOialLoyXECWUqDImDXO/HPhDBkzGEhMKEeB9IB4HjsCR/412AzBYrzXczvPTzmilcCYPvtSxTHGbi7OQ+HsdCvyWGtGEEb6p39e9ZXxD4d/DHTcoQ2hjEtPCVZf6gpF+cnyroPFjh4GIcXSFYq0lRF7QYmCe+9AeL+KJmMFkJ1fUULKZVghYEHzEf3rFxXTN/y+yOYy2A+KHcTpSGOxMXMKB5z6iqfEM3rPyVUfKIMnVOpmurBhvY6vUdCANlc2UY6TEgExaYNo6VXgspVGXhCtDLznVOodjP3p6WyZWl/pqMRpUhlRhGksoKklYK9Z0zttvVYZtRWHVVkkcRDX4dPWxmfv0hm8q7quKzhZxOG4gFhwhQbHeP+2q1xmXgb6hqJaSAVLagQOVjtWaSa0QH5hlbhJHECCIk2vO9AZjIKIJaRvEQwX+Wek2jzodczxDiDagLiAYIBj9KMGYWQCtxc3mYBP7+9EYuOkGinNrpADcoFhJFpiO1h/wBtKp4aa9TNc7xMDeL0q0CzN8FxA/8AzjOGsSAyooncFYJdmA5CSDuOUvGPE/n44ZjAAgA2OmSxJsbGYjoPfJyWgzqmQFIKi3MGf6Tt12q3MAKy8DSoEkNBLGQCpi/Ll+9dLX2MsvqHZ1QNKrAAmBNwpGgDrA0+cmgvCyWcgiNSgSSYBVrkzeJtVrSzAM30yrMtpmOEHvP5qrRpcqpBjTt0uxEnvynlSS+rQPs0UjUFJ1DUJIMDYgkGPKhvE8qUClZhSwLbgBWIPvb351QmMTiIrA/Wo3+qbG3S+9F+IsRqVjuGZL7AsBAEcxq/8RtWaTUkU3aL8XSjKUKlyAAWWSrCJKSIUWI962vh/wCImyoBxBwMpIUWCtwkgE7A3EdhXIK7al4Rw6brNgSy8Z/Xyrq/hvLJiBXxG1BJtuGfhM+QifUUNY0zSFStHoGU8YGNhpiaNIYxD2i8EwdxaZ5iKvPhaRqU6TbupM7gbjp5GsA+IqqldOpRcAG466f2o/D+IsJ2VEYTA4DwnYkaQY1WU2E04yUiZ8bj0WYuRcJqJUwhNgJC7MATB2P3NSfw5jxEyJH1lz/NFrg8yehnnRD5sEMCNkad+YmrjiDSt9o6X+9MgWXy6pYuSbgdAQJEAcoPOdhQWe8QVBJaO3Q9Kzcz4qGLfy6W1aiYURHuIU86wczmRnGVcFld763KkBFP0nSDBbkJPI0ntFRjs0/E8PDzHDiEmOJjqYAdywsKvy/g2E+G4XEMMRpidKBUKKu/FBMzztUcr8PKoA1EqvL+UH/SuwPesnxjxk5Z9CjVMCJiZMDlWSdujorWmc9ncqcLGZCyuVWZUzaLagdjABjvUPC01qQUDOhsswXUxAjnbpQ2Bis2LiudyHJmDc339aqymA8jSSZOoMJtFxft+lW49r/CJvSN7w84xOkIZZgCCCuhWsdKHa1rR7WpeNoiOgR3LhdD9nXSYVgBqW8elVjxIJjpDOJZS4B4TJImOxMn0rOzuNClp4kC4ctILEkhmBNzZdxzBqYxbdkWqLkVRugMEarwdMWFvpvzqzEzCGWVCJixbUOtgBJMxaedV+HIMRRpJDAgmTeIsJ/q5+oovL4LIsJM+cAAzLE7X5crGhpX+xdjFQFI2mCfPp6TSqnGddUWMbgSI9dj7U1FAYGTxCTEDSR5EgeVpFztz70RmX1ssHb3XYtJG4jyobLqIJFjFu0ktv061BRuexB325Qd+Rt3rqaVmNug3CxpYjcypmw6x9l+9QwMTjMi4O8bgkkho3/xS8MS/wDKNUkkwY2Am/nyFXeHqjO+4FpsIHFMA8p2v1qHSsa8DhVbFwwu2qfKCJM9KbxVDqJJvpO14Cm4POL0S4hxsJm8aRz6fYftWf4m8OIF9AHWSQSR7ilHbRUnorxsdiEiwLHrH9Mz610PheZVMEAAjif7NH6Vi/L4cMaWLWJvYWM8uQ/Sug8HwEZCCIIZrHlf9d/Wp5WsTTg/Iuw/EQoLHYAk+l6ysHKnHb5/zlW5IUjYQQBIPQ9K0vFsoowmgcjaYB7TXNYOCpCmAZgmYmwJWOxPCZqONatM15Jbqjusvn3VNEpGjTPFJtAkRb0ps/4tjEJoYAhpIR9IgTAMgSJ5GuHw8AE8OoSRbURZmheY2MjntSw8NmJCuwYf6iRYXJnuV9zVYtef4Z2vX9NfxkZjHhPlphqSCSMQQdxfi2EzAB2511vgz5fJYQRG1Ofqb+pubHoo6V59i4WMwJ1lhwjcTLjhlSJGxnpVOvEWCGJGkGT5wes3gcqpqTVWgjKKfTPVz8TYKABrg87TJ5nzrl/iXILiYnzsAriI0Ar82GRhykj6eYvMzyrlMw2ILEKQbTv/ADFT6Aj8U+EzKGRZUky0RsgNgeX1T6VKg1styi0H42SbAXEnSdSsbGSO25m5iZ5Cr8og0KymAABG9hc/ea5/+JYcLamLgCdRsdVoJ8q38tk9RRFbRqsBaJiTf3mnNOKtmWSlpA+dWWQD6TqPL+pSJPTlFQxlGhBp161JEXPA2lotuZnyYVfnsObSYgbhRpAtMLuY2HUjvQuOGfDCISFRisc+JQQHPO42FrinHdMUvQbkQApaZa7EAgw0GOIdgdu3SrXZzJuQQLRYHcz9qbAX5YQGYAYQTFzE6um/nVj8bA7EA+V+i79L1k+3Q1oiwNkABYXNvyaVWsTAIBmYiLkgdfc8tqagZz2WWxMG0aTMR0sRehnSB/TIY3MzAMXPQfnlNFZbB2KsCo08N5DEqQW6k+34qOcTSJIB6kxty9OkD16dKf2MH0Q8P+kEMobSxuD1gbiOVW+HMFxH1GAVmAAdR9dr3n7GqsuZSYkLYnrcm5Hr6DtT5WNUEyxFhcgkdR2A2/xTfkPRrFlOkweETeSQdgSADYzF95obNOGluJRdp5CWkKZvz9YJovEMpoEKCZJBgOYsJ26xNr1nu+lWCm20nnH06u3TsayRTC2F0I2JBi/ISfvAip+HZkqzLzJY2Mg8R2PMHf1oHw19T4asTOoSemmdgd5v7bc6FxM1/wAR2vMuxjYBmBEdvWm4XoqEsXZ1fihLYLR/SfeK5tBwnh06oKi30zIj/uJPpW5kXOIhTqDWFl8codLKDBK3kGxgEEEfzA+QFRBaaNp9pkgxE8O3U3gyNucsPSahh4pBJKgkhU+qAYEMJ6QoFENmEm+EJN4DNcgwRv1/SnJQDScMjcCH2MyxBjfveYqr/RFFC4skmJ1bcQsDOkkdbH3psTGJKypAEsbieMEgGdzEGO1E4GlmJ0i+kSWEDUNzC8o9CedDh1J1QxliTxDeBp5cz6WO1Nf4JjY+KY06YACyJmyLBI8y0dyagcTe0EyD5CSZ9YH/AHVYWW3DO1ywvz5DaZPWb8qoxW2ARVJi9zvpEQfTlVIlssfAGoEbqyDuAEBaPWa2cq5beIb7FTJMdLdqBw149TdfQ7Am8W/ei8zmIEL9JuZmSdrzfblsBIrOW1Q6V2QzWHqK7hSZsdIEWUHm3lUPmLhrYEEmRvIt9W/TaoYzkjUdhvyn/SsbTty2O1DlGfUzCLSJ2LchHJQBtTitbBv0FFmLLaSZ3gnltGxt5mr/AJhWS08pkc9iCCYHLymhi5Vw19gDEDkNjy2qRIO06QQSpIHK0iYsY3nY1IBuHihzxDSi/SFJEDaB1JgEnypUFmc0LAFxvOkwOW/vSpYsLRn5LHVVlfrgXvFx+BF/IUPjyxkHn9UmWJ3af79KqTGYC215G1rfsasw8QQBtFtgZFdNU7MbvRZkyTImQx37iQrHkd+fWpphgNKyVsB13+rvvQuApuRAiQNrzO0envRWUzR1aevQcybyNvWlK90NBZzE4YVRaWIi9yQs9jYiOjVRi2WNO99WqSt+nMGCD2Pu7YtgCOR+lgb2MW2HL1qtkaA6MZAuJGoG52/TyqUNiy7FWEcyGJEb3B3EjlbrQmcJ1N0JKx0iCYG0WozCx+NZjUAd1jlItyIjfyoXMKSC1zLEgm/LrVp7FVo7z4eyoOCrc2VT2uK5HxfL6Md1PUkRvBFotG5k9lO1dX4TnFXBw1kWVBv2UfrWD8UoHZMRYJ0kMJvY2iOfEfasIP7s6JJ4JmZh3Ja9gW9UAgesj2qYvbaJk/8AsTQqOwEwSZkgE3IESZ96ksgwZHK87RM+f960aIUghH5KQJH/AKkwAfefUUm4YA6kDoWb6Sd7C4qnBlydtpvYATIBPaDfoKTP5f8A6kA/r9qK2GWi4GbciQOlhAj8371FdLNqYkhfvf8Afby6A1S76jp/vYXg27femGNFpsJY/wDVEA9OnsetCRDkX5R2d7mPWyjtPfnVr48sxG38sEzAtfue3Wg1EG/r/f8A31q82iRvFriF/vf086GtgnomuPAF7dJgTVRaZtcwD37dKH+eJ1Em/QD2HpVrMAI/mP1bWttbn16e9PGicrLmsbncb3M8xterxiAcIIMyee4vNx2oP52oAHlYeUkionGhuQiALAm3c3/FGI7CdYYwth1XnzmlVeLi6RBYkGOZ8wO3+KVTQ7QC1gfL9arQ3PlTUq2XRi+wvA3P/UPyKhg7en6j96VKpLLzu/l+9X5dQySQJGmLAcxvG/rSpVL6K8leK5uOx/FCLsfJfyKVKnEXklgZp1UaWix5DqKJOKWnUdUTE3jbrSpUpGi/EszOEBMCP7UNi7H/AKU++9KlREUh0PCfP8KKgeVKlQJ9DL9PpVWVuQP9QpUqrwyPKCMU396ra5E9/wAf2pUqUehvsoT6Z52/NW4dvZvxSpVTIQsp9S+Y/Bq4IJHmPzSpVMuy49Ecz/yweeo/k0qVKrXRD7P/2Q==" alt="">
+                        </div>
+                        <div class="content">
+                            <h3>birthday photo <br> shot</h3>
+                    </div>
+
+                </div>
+        </section>
+        <!-- gallery Section End  -->
+
+
+        <!-- Review Section  -->
+        <section class="review" id="review">
+            <h1 class="heading">Customers <span>review</span> </h1>
+            <div class="box-container">
+
+                <div class="box">
+                    <img src="" alt="" class="quote">
+                    <p>If you're looking for a good price and great photo quality, you're in the right place.</p>
+                    <img src="https://png.pngtree.com/png-vector/20191101/ourmid/pngtree-cartoon-color-simple-male-avatar-png-image_1934459.jpg" class="user" alt="">
+                    <h3>John Ortiz</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="../clipart3775686.png" alt="" class="quote">
+                    <p>What a great experience! I learned a lot from the photography tricks here!</p>
+                    <img src="https://previews.123rf.com/images/metelsky/metelsky1904/metelsky190400021/121859823-male-avatar-icon-or-portrait-handsome-young-man-face-with-beard-vector-illustration.jpg" class="user" alt="">
+                    <h3>Joon Park</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="../clipart3775686.png" alt="" class="quote">
+                    <p>Great quality, nice people! Enjoyed my time working with them!</p>
+                    <img src="https://static.vecteezy.com/system/resources/previews/002/002/257/non_2x/beautiful-woman-avatar-character-icon-free-vector.jpg" class="user" alt="">
+                    <h3>Elna Grey</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- Review Section End  -->
+      <!-- Contact Section Start  -->
+        <section class="contact" id="contact">
+            <h1 class="heading">
+                <span>Contact</span>Us
+            </h1>
+
+            <div class="row">
+                <form action="">
+                    <h3>Get in touch!</h3>
+                    <div class="inputBox">
+                        <span class="fas fa-user"></span>
+                        <input type="text" placeholder="name">
+                    </div>
+
+                    <div class="inputBox">
+                        <span class="fas fa-envelope"></span>
+                        <input type="email" placeholder="email">
+                    </div>
+
+                    <div class="inputBox">
+                        <span class="fas fa-phone"></span>
+                        <input type="number" placeholder="number">
+                    </div>
+
+                    <input type="submit" value="contact now" class="btn">
+
+                </form>
+            </div>
+        </section>
+        <!-- Contact Section End  -->
+
+ <!-- Footer Section -->
+        <section class="footer">
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+                <a href="#" class="fab fa-pinterest"></a>
+            </div>
+
+            <div class="links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Menu</a>
+                <a href="#">Gallery</a>
+                <a href="#">Review</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="credit">Created by <span>
+                Freakydigital studio</span> &copy;</div>
+        </section>
+        <!-- Footer Section End -->
+<script src="script.js"></script>
+</body>
+</html>
